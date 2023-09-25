@@ -5,7 +5,7 @@ Battery Management System (BMS) is designed to ensure the optimal performance an
    **Team**:
 1. **Nithin P**
 2. **Pramoda S R**
- - ### Key Features
+ - ### Key Features 
    - Voltage, Current, and Temperature Monitoring
    - Fail-Safe Alerts
    - IoT Integration
