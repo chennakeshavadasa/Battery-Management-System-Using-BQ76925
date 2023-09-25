@@ -1,21 +1,21 @@
-PIN Functions
-pin1 VCTL - 3.3V Regulator Control voltage
-pin2 BAT - Supply Voltage tied to most positive cells
-pin3 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin4 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin5 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin6 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin7 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin8 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin9 VC6 - Measure the Voltage between the 2 terminals of the battery
-pin10 VSS - Ground
-pin11 SENSEN - Negative current senor
-pin12 SENSEP - Positive current sensor
-pin13 ALERT - Overcurrent Alert during Open drain
-pin14 VIOUT - Measures the output current
-pin15 VCOUT - Measures the output Cell Voltage
-pin16 VTB - Measures the bias voltage for thermistor network to calculate the temperature
-pin17 VREF - Reference voltage for Analog to Digital convertor in the Arduino
-pin18 SDA - I2C Data for Open Drain
-pin19 SCL - I2C clock for Open Drain
-pin20 V3P3 - 3.3V voltage regulator
+# PIN Functions
+- pin1 VCTL       -    3.3V Regulator Control voltage 
+- pin2 BAT        -    Supply Voltage tied to most positive cells 
+- pin3 VC6        -    Measure the Voltage between the 2 terminals of the battery 
+- pin4 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin5 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin6 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin7 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin8 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin9 VC6        -    Measure the Voltage between the 2 terminals of the battery
+- pin10 VSS       -    Ground 
+- pin11 SENSEN    -    Negative current senor 
+- pin12 SENSEP    -    Positive current sensor 
+- pin13 ALERT     -    Overcurrent Alert during Open drain
+- pin14 VIOUT     -    Measures the output current 
+- pin15 VCOUT     -    Measures the output Cell Voltage 
+- pin16 VTB       -    Measures the bias voltage for thermistor network to calculate the temperature 
+- pin17 VREF      -    Reference voltage for Analog to Digital convertor in the Arduino 
+- pin18 SDA       -    I2C Data for Open Drain
+- pin19 SCL       -    I2C clock for Open Drain
+- pin20 V3P3      -    3.3V voltage regulator 
