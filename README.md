@@ -57,4 +57,4 @@ Battery Management System (BMS) is designed to ensure the optimal performance an
 - [Blynk](https://blynk.io/)
 
 ## License
- - Coming Soon (hopefully)
+ - Coming Soon. (hopefully)
