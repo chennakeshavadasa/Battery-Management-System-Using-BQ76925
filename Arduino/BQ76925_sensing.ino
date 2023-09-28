@@ -1,58 +1,43 @@
-//ARDUINO CODE VERSION 1.1
+//ARDUINO CODE VERSION 1.2
 
 #include <SoftwareSerial.h>
 #include <ArduinoJson.h>
 
 SoftwareSerial s(5,6);
-//defines for alert pin and I2C address
+//defines for the alert pin and I2C address
 #define PWR_I2C_ADDRESS 1
 #define ALERT_PIN 2
 //sensor values
 int a,b,c,d,e,f ;
-//JSON object creation
-DynamicJsonDocument jsonDoc(1000); // Create a JSON document with a capacity of 1000 bytes
-JsonObject root = jsonDoc.to<JsonObject>(); // Get a JsonObject reference from the document
 
 void setup()
 {
   //Wire.begin();
-  Serial.begin(115200);
-  s.begin(115200);
+  Serial.begin(9600);
+  s.begin(9600);
 }
 
 void loop()
 {  
+  // Create a JSON document
+  StaticJsonDocument<100> doc;
   //reads A0 and maps the value between desired limits
-  Serial.print("Current :" );
   a =analogRead(A0);
   b=map(a,0,310,0,3);
-  root["sensor1"]= b;
-  Serial.print(b); 
-  Serial.print("(");
-  Serial.print(a);
-  Serial.print(")");
+  doc["Current"] = b;
   //reads A1 and maps the value between desired limits
-  Serial.print("  Voltage :" );
   c=analogRead(A1);
   d=map(c,0,370,0,12);
-  root["sensor2"]= d;
-  Serial.print(d);
-  Serial.print("(");
-  Serial.print(c);
-  Serial.print(")");
+  doc["Voltage"] = d;
   //reads A2 and maps the value between desired limits
-  Serial.print("  Temp :" );
   e=analogRead(A2); 
   f=map(e,0,500,-45,45);
-  root["sensor3"]= f;
-  if(s.available()>0)
-  {
-    root.printTo(s);
-  }
-  Serial.print(f);
-  Serial.print("(");
-  Serial.print(e);
-  Serial.println(")"); 
+  doc["Temp"] = f;
+  // Serialize the JSON document to a char array
+  char jsonBuffer[100];
+  serializeJson(doc, jsonBuffer);
+  // Print the JSON data through SoftwareSerial
+  s.println(jsonBuffer);
   delay(500);
 }
 
