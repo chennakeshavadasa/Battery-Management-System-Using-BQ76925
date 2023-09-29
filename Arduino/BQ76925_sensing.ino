@@ -1,5 +1,4 @@
-//ARDUINO CODE VERSION 1.2
-
+// version 1.2
 #include <SoftwareSerial.h>
 #include <ArduinoJson.h>
 
