@@ -1,4 +1,4 @@
-// version 1
+//version 1
 #define WIFI_SSID       "your_ssid"
 #define WIFI_PASS       "your_password"
 #define SERVER_IP       "your_server_ip" // or domain name
