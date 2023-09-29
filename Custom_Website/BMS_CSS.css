@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.sensor-values {
+    margin-bottom: 20px;
+}
+
+.uptime {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+canvas {
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
