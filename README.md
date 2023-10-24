@@ -34,7 +34,7 @@ Battery Management System (BMS) is designed to ensure the optimal performance an
      - 0.1µF  - 1
 
 ## Circuit Diagram
- - ![image](https://github.com/chennakeshavadasa/Battery-Management-System-Using-BQ76925/blob/main/CircuitDiagram/CIRCUIT_DIAGRAM.png)
+![Circuit Diagram](https://github.com/chennakeshavadasa/Battery-Management-System-Using-BQ76925/raw/main/CircuitDiagram/CIRCUIT_DIAGRAM.png)
  
 ## Instructions
  - Connect the circuit as shown in the diagram.
