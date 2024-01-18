@@ -1,3 +1,5 @@
+<p align="center"> Namo Vadakkumnathan ॐ</p>
+
 # Battery Management System using BQ76925
 The repository includes - Circuit diagrams, Code for the hardware used (Arduino and ESP8266 module), Features and Specifications.
 Battery Management System (BMS) is designed to ensure the optimal performance and safety of your energy storage solutions. This system combines precision monitoring with seamless IoT integration, providing real-time insights into crucial battery parameters.
