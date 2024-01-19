@@ -1,4 +1,4 @@
-<p align="center"> Namo Vadakkumnathan ॐ</p>
+<p align="center"> ॐ नमो वडक्कुमन्नाथन ॐ </p>
 
 # Battery Management System using BQ76925
 The repository includes - Circuit diagrams, Code for the hardware used (Arduino and ESP8266 module), Features and Specifications.
