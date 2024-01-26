@@ -53,7 +53,7 @@ Battery Management System (BMS) is designed to ensure the optimal performance an
  - ArduinoJson.h
 
 ## Links
-- [BQ76925](https://www.ti.com/product/BQ76925)
+- [BQ76925](https://www.ti.com/product/BQ76925) or [Cheaper alternative](https://in.element14.com/texas-instruments/bq76925pw/batt-prot-li-ion-pol-6cell-tssop/dp/3123829)
 - [Arduino UNO R3](https://docs.arduino.cc/hardware/uno-rev3)
 - [ESp8266](https://www.make-it.ca/nodemcu-details-specifications/)
 - [Blynk](https://blynk.io/)
