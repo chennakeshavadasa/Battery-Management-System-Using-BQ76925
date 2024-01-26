@@ -59,4 +59,4 @@ Battery Management System (BMS) is designed to ensure the optimal performance an
 - [Blynk](https://blynk.io/)
 
 ## License
- https://github.com/chennakeshavadasa/Battery-Management-System-Using-BQ76925/blob/main/LICENSE
+ [License](https://github.com/chennakeshavadasa/Battery-Management-System-Using-BQ76925/blob/main/LICENSE)
