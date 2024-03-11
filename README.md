@@ -1,5 +1,3 @@
-<p align="center">ॐ नमो वडक्कुमन्नाथन ॐ</p>
-<p align="center">ॐ श्रुतिस्मृतिपुराणां नामामि भगवत्पादशङ्करं लोकशङ्करं ॐ</p>
 
 # Battery Management System using BQ76925
 The repository includes - Circuit diagrams, Code for the hardware used (Arduino and ESP8266 module), Features and Specifications.
