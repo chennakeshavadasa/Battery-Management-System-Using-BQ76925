@@ -9,7 +9,7 @@
 - pin8 VC6        -    Measure the Voltage between the 2 terminals of the battery
 - pin9 VC6        -    Measure the Voltage between the 2 terminals of the battery
 - pin10 VSS       -    Ground 
-- pin11 SENSEN    -    Negative current senor 
+- pin11 SENSEN    -    Negative current sensor 
 - pin12 SENSEP    -    Positive current sensor 
 - pin13 ALERT     -    Overcurrent Alert during Open drain
 - pin14 VIOUT     -    Measures the output current 
